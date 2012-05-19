@@ -1,5 +1,9 @@
 # FlexGrid
-The FlexGrid framework is a responsive grid that allows developers to use a 6-column grid to layout their site, while providing easy, natural wrapping when the site is narrowed.
+FlexGrid is a responsive grid that allows developers to use a 12-column grid to layout their site, while providing automatic content reflow for different browser widths. The reflow is controlled by the `.group` class, which developers can use to designate areas of related content that can be reshuffled. 
+
+*For example: defining a 4-column row as a `.group` will split the content into two 2-column rows.* 
+
+If grouping is not designated, the grid columns are scaled evenly by the browser width. 
 
 ## Syntax
 - The grid elements must be wrapped inside of a "container" class
