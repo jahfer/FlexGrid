@@ -8,8 +8,8 @@ Typography has also been slightly optimized to make sure columns are within the 
 ## Syntax
 - The grid elements must be wrapped inside of a "container" class
 - The first element in a row must contain the "first" class
-- Multiple rows can be grouped together in order to define a consistent way to wrap and combine rows together when shifted from a 3-column layout to a 2-column one. 
-*Note* the "group" class currently only works with "grid4" class elements inside it.
+
+*IMPORTANT: `.group` currently only works with `.grid3` and `.grid4` columns. If you have a suggestion for how to handle columns of other sizes, let me know!*
 
 ```html
 <div class="container">
