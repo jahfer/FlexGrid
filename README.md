@@ -5,6 +5,8 @@ FlexGrid is a responsive grid that allows developers to use a 12-column grid to 
 
 Typography has also been slightly optimized to make sure columns are within the optimal reading range of 50-70 characters per line.
 
+[See the demo »](http://dev.jahfer.com/flexgrid/)
+
 ## Syntax
 - The grid elements must be wrapped inside of a "container" class
 - The first element in a row must contain the "first" class
