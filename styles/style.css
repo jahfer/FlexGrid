@@ -206,102 +206,196 @@ td {
   vertical-align: top; }
 
 /* ==|== base ======================================================= */
-body {
+html {
   font-size: 62.5%; }
 
+img {
+  max-width: 100%; }
+
+p {
+  margin-top: 0; }
+
 .container {
-  width: 97.8em;
-  margin: 40px auto; }
+  width: 978px;
+  width: 97.8rem;
+  margin: 0 auto;
+  font-size: 1.6rem; }
 
 .grid1, .grid2, .grid3, .grid4, .grid5, .grid6,
 .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
   float: left;
   display: inline;
-  margin-left: 3em;
-  background-color: #eee;
-  height: 50px;
-  margin-bottom: 3em; }
+  margin-left: 30px;
+  margin-left: 3rem; }
 
 .first {
   margin-left: 0;
   clear: both; }
 
+.group {
+  clear: both; }
+
+.grid1 {
+  width: 54px;
+  width: 5.4rem; }
+
 .grid2 {
-  width: 13.8em; }
+  width: 138px;
+  width: 13.8rem; }
+
+.grid3 {
+  width: 222px;
+  width: 22.2rem; }
 
 .grid4 {
-  width: 30.6em; }
+  width: 306px;
+  width: 30.6rem; }
+
+.grid5 {
+  width: 390px;
+  width: 39.0rem; }
 
 .grid6 {
-  width: 47.4em; }
+  width: 474px;
+  width: 47.4rem; }
+
+.grid7 {
+  width: 558px;
+  width: 55.8rem; }
 
 .grid8 {
-  width: 64.2em; }
+  width: 642px;
+  width: 64.2rem; }
+
+.grid9 {
+  width: 726px;
+  width: 72.6rem; }
 
 .grid10 {
-  width: 81.0em; }
+  width: 810px;
+  width: 81.0rem; }
+
+.grid11 {
+  width: 894px;
+  width: 89.4rem; }
 
 .grid12 {
-  width: 97.8em; }
+  width: 978px;
+  width: 97.8rem; }
 
 /* ==|== layout ======================================================= */
+@media only screen and (max-width: 47.9375em) {
+  .container {
+    font-size: 14px;
+    font-size: 1.4rem; } }
 /* Mobile in portrait */
 @media only screen and (max-width: 47.9375em) {
   .container {
-    width: 30em; }
+    width: 90%;
+    max-width: 479px;
+    max-width: 47.9rem;
+    padding: 0 10px;
+    padding: 0 1rem; }
 
   .grid1, .grid2, .grid3,
   .grid4, .grid5, .grid6,
   .grid7, .grid8, .grid9,
   .grid10, .grid11, .grid12 {
-    width: 30em;
+    width: 100%;
     margin-left: 0; } }
-/* Mobile in Landscape */
 @media only screen and (min-width: 30em) and (max-width: 47.9375em) {
   .container {
-    width: 47.9em; }
-
-  .grid1, .grid2, .grid3,
-  .grid4, .grid5, .grid6,
-  .grid7, .grid8, .grid9,
-  .grid10, .grid11, .grid12 {
-    width: 47.9em;
-    margin-left: 0; } }
+    font-size: 16px;
+    font-size: 1.6rem; } }
 /* Tablets in Portrait */
 @media only screen and (min-width: 48em) and (max-width: 61.125em) {
   .container {
-    width: 76.8em; }
+    width: 768px;
+    width: 76.8rem; }
+
+  .grid1 {
+    width: 365px;
+    width: 3.65rem; }
 
   .grid2 {
-    width: 10.3em; }
+    width: 103px;
+    width: 10.3rem; }
+
+  .grid3 {
+    width: 169px;
+    width: 16.95rem; }
 
   .grid4 {
-    width: 23.6em; }
+    width: 236px;
+    width: 23.6rem; }
+
+  .grid5 {
+    width: 302px;
+    width: 30.25rem; }
 
   .grid6 {
-    width: 36.9em; }
+    width: 369px;
+    width: 36.9rem; }
+
+  .grid7 {
+    width: 435px;
+    width: 43.55rem; }
 
   .grid8 {
-    width: 50.2em; }
+    width: 502px;
+    width: 50.2rem; }
+
+  .grid9 {
+    width: 568px;
+    width: 56.85rem; }
 
   .grid10 {
-    width: 63.5em; }
+    width: 635px;
+    width: 63.5rem; }
+
+  .grid11 {
+    width: 701px;
+    width: 70.15rem; }
 
   .grid12 {
-    width: 76.8em; }
+    width: 768px;
+    width: 76.8rem; }
 
   .group .first {
     clear: none; }
 
-  .group .grid4 {
-    width: 36.9em; }
+  .group .grid1 {
+    width: 103px;
+    width: 10.3rem;
+    margin-bottom: 0; }
 
-  .group .grid4:nth-child(odd) {
-    margin-left: 0; }
+  .group .grid2 {
+    width: 169px;
+    width: 16.95rem;
+    margin-bottom: 0; }
 
-  .group .grid4:nth-child(even) {
-    margin-left: 3em; } }
-/* ==|== modules ======================================================= */
+  /*.group .grid3 { width: 23.6em; margin-bottom: 0 }*/
+  .group .grid3, .group .grid4, .group .grid5, .group .grid6, .group .grid7, .group .grid8 {
+    width: 369px;
+    width: 36.9rem; }
+
+  .group .grid3:nth-child(odd),
+  .group .grid4:nth-child(odd), .group .grid5:nth-child(odd),
+  .group .grid6:nth-child(odd), .group .grid7:nth-child(odd),
+  .group .grid8:nth-child(odd) {
+    margin-left: 0;
+    clear: both; }
+
+  .group .grid3:nth-child(even),
+  .group .grid4:nth-child(even), .group .grid5:nth-child(even),
+  .group .grid6:nth-child(even), .group .grid7:nth-child(even),
+  .group .grid8:nth-child(even) {
+    margin-left: 30px;
+    margin-left: 3rem; }
+
+  .container {
+    font-size: 15px;
+    font-size: 1.5rem; } }
 /* ==|== helpers ======================================================= */
 /* For image replacement */
 .ir {

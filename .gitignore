@@ -1,0 +1,13 @@
+*.scss
+styles/scss/
+.sass-cache/
+styles/.sass-cache/
+styles/scss/layout.scss
+
+styles/scss/base.scss
+
+styles/.sass-cache/d841b4cc71ab3b5519d027cc7e842be469cb5495/layout.scssc
+
+styles/.sass-cache/d841b4cc71ab3b5519d027cc7e842be469cb5495/base.scssc
+
+styles/scss/style.scss
