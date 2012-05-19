@@ -15,9 +15,11 @@ Typography has also been slightly optimized to make sure columns are within the 
 
 ```html
 <div class="container">
+	<!-- keeps same ratio for tablet and desktop -->
 	<div class="grid2 first"></div>
 	<div class="grid10"></div>
 
+	<!-- changes from 3-column on desktop to 2-column on tablet -->
 	<section class="group">
 		<div class="grid4 first"></div>
 		<div class="grid4"></div>
