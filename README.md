@@ -11,13 +11,17 @@ Typography has also been slightly optimized to make sure columns are within the 
 - The grid elements must be wrapped inside of a "container" class
 - The first element in a row must contain the "first" class
 
-*IMPORTANT: `.group` currently only works with `.grid3` and `.grid4` columns. If you have a suggestion for how to handle columns of other sizes, let me know!*
-
 ```html
 <div class="container">
 	<!-- keeps same ratio for tablet and desktop -->
 	<div class="grid2 first"></div>
 	<div class="grid10"></div>
+
+	<!-- columns inside columns -->
+	<div class="grid12 first">
+		 <div class="grid9 first"></div>
+		 <div class="grid3"></div>
+	</div>
 
 	<!-- changes from 3-column on desktop to 2-column on tablet -->
 	<section class="group">
