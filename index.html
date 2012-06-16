@@ -11,8 +11,29 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="styles/css/style.css">
+    <link rel="stylesheet" href="styles/css/flexgrid.min.css">
     <script src="js/vendor/modernizr-2.5.3.min.js"></script>
+    
+    <style>
+      /* Demo Grid Styling */
+      .container {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      #grid {
+        position: absolute;
+        top: 0;
+        left: $padding;
+        display: block;
+        z-index: -1;
+      }
+      
+      .container:hover #grid .grid1 {
+        background-color: #ffecec;	
+        height: 3500px;
+      }
+    </style>
   </head>
   <body>
 
