@@ -11,16 +11,20 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="styles/css/flexgrid.min.css">
+    <link rel="stylesheet" href="../styles/css/flexgrid.min.css">
     <script src="js/vendor/modernizr-2.5.3.min.js"></script>
     
     <style>
-      /* Demo Grid Styling */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+
       .container {
         position: relative;
         overflow: hidden;
       }
-      
+
       #grid {
         position: absolute;
         top: 0;
@@ -28,12 +32,17 @@
         display: block;
         z-index: -1;
       }
-      
-      .container:hover #grid .grid1 {
-        background-color: #ffecec;	
+
+      .container:hover #grid .grid1, .container:hover #grid .grid2 {
+        background-color: #ffecec;  
         height: 3500px;
       }
+
+      .grid6 {
+        background-color: #ff0000;
+      }
     </style>
+
   </head>
   <body>
 

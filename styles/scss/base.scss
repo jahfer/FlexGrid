@@ -1,26 +1,26 @@
+// FlexGrid Variables, Mixins and Functions
+
 $flexgrid-column: 62;
 $flexgrid-gutter: 20;
 $flexgrid-column-count: 12;
 $padding: 10;
 
+// normalization
+$base-width: ($flexgrid-column * $flexgrid-column-count) + ($flexgrid-gutter * $flexgrid-column-count - 1);
+$normalized-gutter: $flexgrid-gutter / $base-width; // .020746888
+$normalized-column: $flexgrid-column / $base-width; // .064315353
+
 @mixin resize($new-size) {
-	$new-size: $new-size - $padding;
+	//$new-size: $new-size - $padding;
+	$flexgrid-column: floor($new-size * $normalized-column);
+	$flexgrid-gutter: floor($new-size * $normalized-gutter);
+	$base-width: $new-size;
 
-	$col-and-gutter: $new-size / $flexgrid-column-count;
-
-	$ratio: get-ratio();
-
-	$flexgrid-column: $col-and-gutter * (1 - get-ratio());
-	$flexgrid-gutter: $col-and-gutter * get-ratio();
+	@include recalc();
 }
 
 @function flexgrid-container-size() {
-	@return $flexgrid-column*$flexgrid-column-count + $flexgrid-gutter*($flexgrid-column-count - 1) + 22;
-}
-
-@function get-ratio() {
-	@return 0.32;
-	//@return (0.1 * (($flexgrid-gutter / $flexgrid-column) + ($flexgrid-column / $flexgrid-gutter))) + 0.09;
+	@return ($flexgrid-column * $flexgrid-column-count) + ($flexgrid-gutter * ($flexgrid-column-count - 1));
 }
 
 @mixin width($size) {
@@ -29,18 +29,81 @@ $padding: 10;
 }
 
 @mixin column($size) {
-	@include width( $flexgrid-column*$size + $flexgrid-gutter*($size - 1) );
+	@include width( $flexgrid-column*$size + ($flexgrid-gutter*($size - 1)) );
 }
 
+@mixin recalc() {
+
+	.grid1  { @include column(1) }
+	.grid2  { @include column(2) }
+	.grid3  { @include column(3) }
+	.grid4  { @include column(4) }
+	.grid5  { @include column(5) }
+	.grid6  { @include column(6) }
+	.grid7  { @include column(7) }
+	.grid8  { @include column(8) }
+	.grid9  { @include column(9) }
+	.grid10 { @include column(10) }
+	.grid11 { @include column(11) }
+	.grid12 { @include column(12) }
+
+	.grid1, .grid2, .grid3, .grid4, .grid5, .grid6,
+	.grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
+		float: left;
+		display: inline;
+		margin-left: $flexgrid_gutter + px;
+		margin-left: $flexgrid_gutter / 10 + rem;
+	}
+
+	.first { margin-left: 0; clear: both }
+	.group { clear: both }
+	.group .first { clear: none }
+}
+
+@mixin reflow($cols: 2) {
+	@if $cols == 2 {
+		.group .grid1 { @include column(2); margin-bottom: 0 }
+		.group .grid2 { @include column(3); margin-bottom: 0 }
+		.group .grid3, .group .grid4, 
+		.group .grid5, .group .grid6, 
+		.group .grid7, .group .grid8 {  @include column(6) }
+		
+		.group .grid3:nth-child(odd),
+		.group .grid4:nth-child(odd), .group .grid5:nth-child(odd),
+		.group .grid6:nth-child(odd), .group .grid7:nth-child(odd),
+		.group .grid8:nth-child(odd), { margin-left: 0; clear: both }
+
+		.group .grid3:nth-child(even),
+		.group .grid4:nth-child(even), .group .grid5:nth-child(even),
+		.group .grid6:nth-child(even), .group .grid7:nth-child(even),
+		.group .grid8:nth-child(even), { margin-left: $flexgrid-gutter+px; margin-left: $flexgrid-gutter/10 + rem }
+	} @else if $cols == 1 {
+		.container { 
+			@extend .clearfix;
+			margin: 0 auto;
+			font-size: 16px; font-size: 1.6rem;
+			line-height: 20px; line-height: 2rem;
+			width: 90%;  
+			font-size: 14px; font-size: 1.4rem;
+		}
+		.grid1, .grid2, .grid3, 
+		.grid4, .grid5, .grid6,
+		.grid7, .grid8, .grid9, 
+		.grid10, .grid11, .grid12 { width: 100%; margin-left:0; }
+	}
+}
+
+
 /* ==|== base ======================================================= */
-html { font-size: 62.5% }
+
+html { font-size: 62.5%; }
 img { max-width: 100% }
 p { margin-top: 0 }
 .container { 
 	@extend .clearfix;
 	margin: 0 auto;
 	font-size: 16px; font-size: 1.6rem;
-	line-height: 24px; line-height: 2.4rem;
+	line-height: 20px; line-height: 2rem;
 	width: 90%;  
 	font-size: 14px; font-size: 1.4rem;
 }
@@ -51,3 +114,44 @@ p { margin-top: 0 }
 
 .view-mobile { display: block; }
 .view-desktop, .view-tablet { display: none; }
+
+
+
+/* ==|== layout ======================================================= */
+
+/* Desktop */
+@media (min-width: 47.9375em) {
+	@include resize(960);
+
+	.container {
+		@extend .clearfix;
+		@include width( flexgrid-container-size() );
+		margin: 0 auto;
+		font-size: 16px; font-size: 1.6rem;
+		line-height: 24px; line-height: 2.4rem;
+		padding: 0 $padding + px;
+	}
+
+	.view-desktop { display: block; }
+	.view-tablet, .view-mobile { display: none; }
+} 
+
+/* Tablets in Portrait */
+@media (min-width: 47.9375em) and (max-width: 61.125em)  {
+	@include resize(767);
+	@include reflow(2);
+
+	.container 	{ 
+		@include width( flexgrid-container-size() );
+		font-size: 16px; font-size: 1.6rem;
+	}
+
+	.view-tablet { display: block; }
+	.view-desktop, .view-mobile { display: none; }
+
+}
+
+/* Mobile in Landscape */
+@media (min-width: 30em) and (max-width: 47.9375em) {
+	.container { font-size: 16px; font-size: 1.6rem; }
+}
