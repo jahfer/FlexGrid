@@ -1,4 +1,4 @@
-// FlexGrid Variables, Mixins and Functions
+/* ==|== FlexGrid Variables, Mixins and Functions ======================== */
 
 $flexgrid-column: 62;
 $flexgrid-gutter: 20;
@@ -7,11 +7,10 @@ $padding: 10;
 
 // normalization
 $base-width: ($flexgrid-column * $flexgrid-column-count) + ($flexgrid-gutter * $flexgrid-column-count - 1);
-$normalized-gutter: $flexgrid-gutter / $base-width; // .020746888
-$normalized-column: $flexgrid-column / $base-width; // .064315353
+$normalized-gutter: $flexgrid-gutter / $base-width; // ~.020746888
+$normalized-column: $flexgrid-column / $base-width; // ~.064315353
 
 @mixin resize($new-size) {
-	//$new-size: $new-size - $padding;
 	$flexgrid-column: floor($new-size * $normalized-column);
 	$flexgrid-gutter: floor($new-size * $normalized-gutter);
 	$base-width: $new-size;
@@ -57,11 +56,11 @@ $normalized-column: $flexgrid-column / $base-width; // .064315353
 
 	.first { margin-left: 0; clear: both }
 	.group { clear: both }
-	.group .first { clear: none }
 }
 
 @mixin reflow($cols: 2) {
 	@if $cols == 2 {
+		.group .first { clear: none }
 		.group .grid1 { @include column(2); margin-bottom: 0 }
 		.group .grid2 { @include column(3); margin-bottom: 0 }
 		.group .grid3, .group .grid4, 

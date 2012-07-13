@@ -1,0 +1,351 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"norma",
+				"normalized-gutter"
+			],
+			[
+				"base",
+				"base-width"
+			],
+			[
+				"flexgrid",
+				"flexgrid-column-count"
+			],
+			[
+				"flexg",
+				"flexgrid-gutter"
+			],
+			[
+				"Ar",
+				"Arial, Helvetica, sans-serif"
+			],
+			[
+				"fr",
+				"froogaloop"
+			],
+			[
+				"get_user",
+				"get_user_id"
+			]
+		]
+	},
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"gist",
+				"GitHub: Copy Gist to Clipboard"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"synta ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"gi",
+				"GitHub: Copy Gist to Clipboard"
+			],
+			[
+				"gith",
+				"GitHub: Copy Gist to Clipboard"
+			],
+			[
+				"fetch",
+				"Fetch: Manage remote files"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jahferh/Repositories/FlexGrid/index.html",
+		"/Users/jahferh/Repositories/FlexGrid/demo/",
+		"/Users/jahferh/Repositories/FlexGrid/styles/scss/flexgrid.scss",
+		"/Users/jahferh/Desktop/Leah Hollins Photo.jpeg",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#5/plugins.js",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#0/page-top-banner.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#3/front-page.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#2/app.css",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#1/page-custom.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#2/custom.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#3/page-stories.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#6/page-full.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#5/page-top-banner.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#7/loop-photos.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#4/gallery-template.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#0/app.css",
+		"/Volumes/OTTAWA/Senior Project/Design/.hg/hgrc",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/User/Terminal.sublime-settings",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/jahferh/Sites/GameController/app/view/Main.js",
+		"/Users/jahferh/Sites/GameController/app/view/Home.js",
+		"/Users/jahferh/Sites/GameController/app/class/Socket.js",
+		"/Users/jahferh/Sites/GameController/app/controller/Game.js",
+		"/Users/jahferh/Sites/e5bp/ender.js",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/View In Browser/Default (OSX).sublime-keymap",
+		"/Users/jahferh/Sites/ender/main.js",
+		"/Users/jahferh/Sites/socialist/socialist.coffee",
+		"/Users/jahferh/Sites/socialist/plugins.js",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jahferh/.oh-my-zsh/custom/plugins/jhusain/jhusain.plugin.zsh",
+		"/Users/jahferh/Sites/manager/application/models/render_model.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#31/page-top-banner.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#14/custom.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#13/hooks.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#11/loop.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#27/page.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#24/page-full.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#18/header.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#25/archive.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#17/footer.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#16/front-page.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#20/category-photos.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#21/loop-photos.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#29/page-top-banner.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#30/loop-banner-top.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#26/loop-page.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#23/page-full.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#22/archive.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#15/loop-homepage.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#12/functions.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#10/loop-single.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#9/page.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#4/custom.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#2/front-page.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#3/functions.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#6/loop.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#8/loop.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#7/loop-page.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#5/loop-page.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#1/envato-flex-slider.php",
+		"/Users/jahferh/Desktop/jquery.fitvid.js",
+		"/Users/jahferh/Desktop/froogaloop.js",
+		"/Users/jahferh/.zshrc",
+		"/Users/jahferh/Downloads/cdto dist/README",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#0/controller.php",
+		"/Users/jahferh/Library/Application Support/TaskPaper/Themes/Solarized Dark.taskpapertheme",
+		"/Users/jahferh/Library/Application Support/TaskPaper/Themes/The Hit List.taskpapertheme",
+		"/Users/jahferh/Library/Application Support/TaskPaper/Themes/DarkMatter Mod.taskpapertheme",
+		"/Users/jahferh/Library/Application Support/TaskPaper/Themes/ir_black.taskpapertheme",
+		"/Users/jahferh/Library/Application Support/TaskPaper/Themes/plainlkou.taskpapertheme",
+		"/Users/jahferh/Library/Application Support/TaskPaper/Themes/template.taskpapertheme",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#0/footer.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#3/header.php",
+		"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#1/loop-homepage.php",
+		"/Users/jahferh/Desktop/awesome.html",
+		"/System/Library/LaunchDaemons/org.apache.httpd.plist",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/jahferh/.oh-my-zsh/README.textile",
+		"/Users/jahferh/Sites/httpd-vhosts.conf",
+		"/Users/jahferh/.oh-my-zsh/oh-my-zsh.sh",
+		"/Users/jahferh/.oh-my-zsh/plugins/sublime/sublime.plugin.zsh",
+		"/Users/jahferh/Desktop/test.rtf",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/sublime-github/GitHub.sublime-settings",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/User/GitHub.sublime-settings",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/jahferh/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".",
+			"column(",
+			"flexgrid-container-size(",
+			"georgia",
+			":after",
+			"before",
+			"gallery",
+			"main {",
+			"li",
+			"#main",
+			".copy",
+			"footer",
+			".copy",
+			".page-header",
+			"curl",
+			"\n",
+			"Reduce risks of complications post-transplant;",
+			"	•  ",
+			"theme",
+			"'",
+			"\"",
+			"<!-- ",
+			"echo",
+			"_get",
+			"'",
+			"<?",
+			"#",
+			"/Users/name"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/Users/jahferh"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"loo",
+				"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#1/loop-homepage.php"
+			],
+			[
+				"footer",
+				"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#0/footer.php"
+			],
+			[
+				"loop",
+				"/Users/jahferh/Library/Caches/com.binarynights.ForkLift2/#1/loop-homepage.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/jahferh/Desktop/FlexGrid.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true
+}
